@@ -13,7 +13,7 @@ def self.clear_all
 end
 
 def self.all
-  puts @@all.map
+  puts @@all.map{ |dog| dog.name }
   end
 
 end
